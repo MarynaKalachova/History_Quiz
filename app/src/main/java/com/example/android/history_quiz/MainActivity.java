@@ -1,11 +1,10 @@
 package com.example.android.history_quiz;
-
-        import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
-        import android.view.View;
-        import android.widget.CheckBox;
-        import android.widget.RadioButton;
-        import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.CheckBox;
+import android.widget.RadioButton;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int score;
 
-    //  discpl
+    //  calls setMessage() and displayMessage methods to display the total score
     public void submitResult(View view) {
         int totalScore = countTotalScore();
         String scoreMessage = setMessage(totalScore);
@@ -38,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
     //  counts total score according to the answered questions
     private int countTotalScore() {
-
         if (questionOneIsCorrect()) score++;
         if (questionTwoIsCorrect()) score++;
         if (questionThreeIsCorrect()) score++;
@@ -115,5 +113,4 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreSummaryTextView = (TextView) findViewById(R.id.score_summary_text_view);
         scoreSummaryTextView.setText(message);
     }
-
 }

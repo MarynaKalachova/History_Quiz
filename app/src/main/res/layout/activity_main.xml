@@ -184,8 +184,5 @@
             style="@style/SubmitButton"
             android:text="@string/Submit"
             android:onClick="submitResult"/>
-
-
     </LinearLayout>
-
 </ScrollView>
