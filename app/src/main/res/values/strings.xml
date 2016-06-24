@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">History Quiz</string>
+
+    <string name="welcome_header">Welcome to the History Quiz!</string>
+    <string name="explanation_header">Please, answer the following questions and click SUBMIT button</string>
+
+    <string name="num1">Question #1</string>
+    <string name="question1">Which person selected the location which later became the District of Columbia (by act of Congress in 1790)?</string>
+    <string name="q1ans1">George Washington</string>
+    <string name="q1ans2">Benjamin Franklin</string>
+    <string name="q1ans3">Thomas Jefferson</string>
+    <string name="q1ans4">Theodore Roosevelt</string>
+
+    <string name="num2">Question #2</string>
+    <string name="question2">What peoples conquered England at the Battle of Hastings in 1066?</string>
+    <string name="q2ans1">Vikings</string>
+    <string name="q2ans2">Celts</string>
+    <string name="q2ans3">Normans</string>
+    <string name="q2ans4">Slavs</string>
+
+    <string name="num3">Question #3</string>
+    <string name="question3">Ancient Mesopotamian cultures including the Babylonians, Assyrians, and Sumerians lived along the shores of which two rivers?</string>
+    <string name="q3ans1">Nile</string>
+    <string name="q3ans2">Euphrates</string>
+    <string name="q3ans3">Irharhar</string>
+    <string name="q3ans4">Tigris</string>
+
+    <string name="num4">Question #4</string>
+    <string name="question4">The wife of Nicholas II was the last czarina of Russia (1894-1917). After the Bolshevik revolution, she and her family were imprisoned and executed. Enter her name.</string>
+
+    <string name="num5">Question #5</string>
+    <string name="question5">Prohibition in the United States was a nationwide constitutional ban on the production, importation, transportation and sale of alcoholic beverages that remained in place from what years?</string>
+    <string name="q5ans1">1921 - 1931</string>
+    <string name="q5ans2">1920 - 1933</string>
+    <string name="q5ans3">1921 - 1932</string>
+    <string name="q5ans4">1920 - 1932</string>
+
+    <string name="score_text"> </string>
+
+    <string name="Submit">Submit</string>
+
+</resources>

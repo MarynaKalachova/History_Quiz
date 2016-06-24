@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.android.historyquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/WelcomeHeader"
+            android:text="@string/welcome_header" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/history"/>
+
+        <TextView
+            style="@style/InstructionHeader"
+            android:text="@string/explanation_header" />
+
+        <TextView
+            style="@style/QuestionNumTextStyle"
+            android:text="@string/num1" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question1" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/q1ans1_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q1ans1" />
+
+            <RadioButton
+                android:id="@+id/q1ans2_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q1ans2" />
+
+            <RadioButton
+                android:id="@+id/q1ans3_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q1ans3" />
+
+            <RadioButton
+                android:id="@+id/q1ans4_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q1ans4" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionNumTextStyle"
+            android:text="@string/num2" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question2" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/q2ans1_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q2ans1" />
+
+            <RadioButton
+                android:id="@+id/q2ans2_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q2ans2" />
+
+            <RadioButton
+                android:id="@+id/q2ans3_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q2ans3" />
+
+            <RadioButton
+                android:id="@+id/q2ans4_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q2ans4" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionNumTextStyle"
+            android:text="@string/num3" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question3" />
+
+        <LinearLayout style="@style/CheckboxLayoutStyle">
+
+            <CheckBox
+                android:id="@+id/ans1_checkbox"
+                style="@style/CheckboxStyle"
+                android:text="@string/q3ans1" />
+
+            <CheckBox
+                android:id="@+id/ans2_checkbox"
+                style="@style/CheckboxStyle"
+                android:text="@string/q3ans2" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/CheckboxLayoutStyle">
+
+            <CheckBox
+                android:id="@+id/ans3_checkbox"
+                style="@style/CheckboxStyle"
+                android:text="@string/q3ans3" />
+
+            <CheckBox
+                android:id="@+id/ans4_checkbox"
+                style="@style/CheckboxStyle"
+                android:text="@string/q3ans4" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuestionNumTextStyle"
+            android:text="@string/num4"/>
+
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question4" />
+
+        <EditText
+            android:id="@+id/name_view"
+            style="@style/EditAnswerTextStyle"
+            android:hint="Name"
+            android:inputType="textShortMessage"/>
+
+        <TextView
+            style="@style/QuestionNumTextStyle"
+            android:text="@string/num5" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question5" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/q5ans1_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q5ans1"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q5ans2_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q5ans2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q5ans3_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q5ans3"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q5ans4_radio_button"
+                style="@style/AnswerTextStyle"
+                android:text="@string/q5ans4"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/score_summary_text_view"
+            android:text="@string/score_text"
+            style="@style/QuestionTextStyle"/>
+
+        <Button
+            style="@style/SubmitButton"
+            android:text="@string/Submit"
+            android:onClick="submitResult"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
